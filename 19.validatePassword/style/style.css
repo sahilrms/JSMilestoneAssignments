@@ -1,0 +1,38 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #ced5ee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+form{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    border: 2px solid black;
+    padding:3rem;
+    background-color: #78787c;
+}
+
+form div{
+    border:2px dotted yellow;
+    padding:5px;
+    margin:2px;
+
+}
+button{
+    padding:5px 15px;
+    background-color: blueviolet;
+    border:none;
+    margin-top: 3px;
+}
+

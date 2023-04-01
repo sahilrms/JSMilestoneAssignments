@@ -1,0 +1,25 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: #FDFDFD;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+#btn{
+    padding: 10px 15px;
+    background-color: #444444;
+    color: #ffffff;
+    border:none;
+    border-radius: 20px;
+   
+   
+}
+

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank App| JS</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Welcome To Bank App</h1>
+        <h3 id="user-welcome"></h3>
+    </header>
+    <nav>
+        <ul>
+            <li>New Transactions</li>
+            <li>History</li>
+            <li>Balance</li>
+            <li>Services</li>
+        </ul>
+    </nav>
+    <div id="balance"></div>
+
+    <main>
+        <section id="withdrawmoney">
+            <h1>Withdraw Money</h1>
+            <form id="withdraw-form">
+                <lable for="amount">Amount</lable>
+                <input type="number" name="amount" id="withdrawAmount" placeholder="Enter Money to be withdrawn"/>
+                <button type="submit" id="withdraw-btn">Withdraw</button>
+                
+            </form>
+        </section>
+        <section id="depositmoney">
+            <h1>Deposit Money</h1>
+            <form  id="deposit-form">
+                <lable for="amount">Amount</lable>
+                <input type="number" name="amount" id="depositAmount" placeholder="Enter Money to be deposited"/>
+                <button type="submit" id="deposit-btn">Deposit</button>
+                
+            </form>
+        </section>
+        
+    </main>
+    
+    <script src="script/script.js"></script>
+</body>
+
+</html>
